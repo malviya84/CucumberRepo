@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user want to add two number",
+        "description": "",
+        "id": "methamatic-operations;user-want-to-add-two-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172476387,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "first number 2 and second number 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 13
+                },
+                {
+                  "val": "3",
+                  "offset": 33
+                }
+              ],
+              "location": "Login.first_number_and_second_number(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30819,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when operation performed as \u0027Addition\u0027",
+            "match": {
+              "location": "Login.when_operation_performed_as_Addition()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113005,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "compare sum should be 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.compare_sum_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "methamatic operations",
+    "description": "",
+    "id": "methamatic-operations",
+    "keyword": "Feature",
+    "uri": "a.feature"
+  }
+]

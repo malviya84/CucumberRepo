@@ -1,0 +1,66 @@
+!SESSION 2017-11-11 01:49:55.237 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product --vm C:\Program Files\Java\jdk1.8.0_144\bin\javaw.exe
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product --vm C:\Program Files\Java\jdk1.8.0_144\bin\javaw.exe
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-11-11 01:52:25.476
+!MESSAGE Both 'org.maven.ide.eclipse.maven_model_edit' and 'org.eclipse.m2e.model.edit' register a package for 'http://maven.apache.org/POM/4.0.0'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-11-11 01:52:25.517
+!MESSAGE Both 'org.maven.ide.eclipse.maven_model_edit' and 'org.eclipse.m2e.model.edit' register an extension parser for 'pom'
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-11 01:52:56.958
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Malvia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2017-11-11 01:53:48.058
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.058
+!MESSAGE Software being installed: artificial_root 1.0.0.v1510345424918
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-11-11 01:53:48.059
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE This version of m2eclipse cannot be installed on top of the already installed m2eclipse. Uninstall the previous version of m2eclipse and try the install again. 1.8.1.20170728-1531 (org.maven.ide.eclipse 1.8.1.20170728-1531)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE This version of m2eclipse cannot be installed on top of the already installed m2eclipse. Uninstall the previous version of m2eclipse and try the install again. 1.8.2.20171007-0217 (org.maven.ide.eclipse 1.8.2.20171007-0217)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE Maven Integration for Eclipse 0.12.1.20110112-1712 (org.maven.ide.eclipse 0.12.1.20110112-1712)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-11-11 01:53:48.059
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE From: artificial_root 1.0.0.v1510345424918
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE To: org.eclipse.m2e.feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-11-11 01:53:48.059
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE From: artificial_root 1.0.0.v1510345424918
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE To: org.maven.ide.eclipse.feature.feature.group 0.12.1.20110112-1712
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-11-11 01:53:48.059
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE From: m2e - Maven Integration for Eclipse (includes Incubating components) 1.8.1.20170728-1531 (org.eclipse.m2e.feature.feature.group 1.8.1.20170728-1531)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE To: bundle org.maven.ide.eclipse [1.8.1.20170728-1531]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-11-11 01:53:48.059
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE From: m2e - Maven Integration for Eclipse (includes Incubating components) 1.8.2.20171007-0217 (org.eclipse.m2e.feature.feature.group 1.8.2.20171007-0217)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE To: bundle org.maven.ide.eclipse [1.8.2.20171007-0217]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-11-11 01:53:48.059
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE From: Maven Integration for Eclipse (Required) 0.12.1.20110112-1712 (org.maven.ide.eclipse.feature.feature.group 0.12.1.20110112-1712)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-11-11 01:53:48.059
+!MESSAGE To: org.maven.ide.eclipse [0.12.1.20110112-1712]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-11-11 01:53:48.078
+!MESSAGE Setup tasks were performed during startup. See 'E:\software\eclipse oxygen\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details

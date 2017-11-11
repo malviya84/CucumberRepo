@@ -1,0 +1,6 @@
+Feature: methamatic operations
+
+  Scenario: user want to add two number         [90m# a.feature:3[0m
+    [32mGiven [0m[32mfirst number [0m[32m[1m2[0m[32m and second number [0m[32m[1m3[0m    [90m# Login.first_number_and_second_number(int,int)[0m
+    [32mWhen [0m[32mwhen operation performed as 'Addition'[0m [90m# Login.when_operation_performed_as_Addition()[0m
+    [32mThen [0m[32mcompare sum should be [0m[32m[1m5[0m                [90m# Login.compare_sum_should_be(int)[0m

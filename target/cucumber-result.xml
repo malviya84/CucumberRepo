@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.17262">
+<testcase classname="methamatic operations" name="user want to add two number" time="0.17262">
+<system-out><![CDATA[Given first number 2 and second number 3....................................passed
+When when operation performed as 'Addition'.................................passed
+Then compare sum should be 5................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

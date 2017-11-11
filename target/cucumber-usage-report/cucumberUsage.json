@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^first number (\\d+) and second number (\\d+)$",
+    "steps": [
+      {
+        "name": "first number 2 and second number 3",
+        "aggregatedDurations": {
+          "average": 0.238612153,
+          "median": 0.238612153
+        },
+        "durations": [
+          {
+            "duration": 0.238612153,
+            "location": "a.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^compare sum should be (\\d+)$",
+    "steps": [
+      {
+        "name": "compare sum should be 5",
+        "aggregatedDurations": {
+          "average": 0.000087992,
+          "median": 0.000087992
+        },
+        "durations": [
+          {
+            "duration": 0.000087992,
+            "location": "a.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^when operation performed as \u0027Addition\u0027$",
+    "steps": [
+      {
+        "name": "when operation performed as \u0027Addition\u0027",
+        "aggregatedDurations": {
+          "average": 0.000055833,
+          "median": 0.000055833
+        },
+        "durations": [
+          {
+            "duration": 0.000055833,
+            "location": "a.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]
